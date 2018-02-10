@@ -31,3 +31,4 @@ class Frbot(telebot.TeleBot):
     @self.message_handler(commands=['talktoved'])
     def talktoved(self,message):
          self.send_message(config.ID_vedmedk0, 'hello ved')
+
